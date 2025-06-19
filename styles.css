@@ -1,0 +1,21 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0px;
+}
+
+.container {
+    max-width: 400px;
+    margin: auto;
+    background: white;
+}
+
+h1 {
+    text-align: center;
+}
+
+label {
+    margin: 0px 0;
+    display: block;
+}

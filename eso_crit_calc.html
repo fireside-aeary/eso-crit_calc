@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ESO Critical Damage Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Critical Damage Calculator</h1>
+        <div>
+            <p>Crit damage calculator for ESO, updated for U46 (Season of the Worm Cult part 1).</p> 
+        </div>
+        <div>
+            <label>
+                <input type="checkbox" id="attribute1"> Major Force
+            </label>
+            <label>
+                <input type="checkbox" id="attribute2"> Minor Force
+            </label>
+            <label>
+                <input type="checkbox" id="attribute3"> Minor Brittle
+            </label>
+            <br>
+            <label>
+                <input type="checkbox" id="attribute4"> Lucent Echoes
+            </label>
+            <label>
+                <input type="checkbox" id="attribute5"> Elemental Catalyst
+            </label>
+            <label>
+                <input type="checkbox" id="attribute6"> Sul-Xan
+            </label>
+            <label>
+                <input type="checkbox" id="attribute13"> Harpooners
+            </label>
+            <label for="mediumArmor">Medium Armor:
+                <input type="number" id="mediumArmor" placeholder="Medium armor pieces">
+            </label>
+            <br>
+            <label>
+                <input type="checkbox" id="attribute7"> Aedric Spear
+            </label>
+            <label>
+                <input type="checkbox" id="attribute8"> Assassination
+            </label>
+            <label>
+                <input type="checkbox" id="attribute9"> Herald of the Tome
+            </label>
+            <label for="animalComp">Animal Companions:
+                <input type="number" id="animalComp" placeholder="Animal companions">
+            </label>
+            <br>
+            <label>
+                <input type="checkbox" id="attribute10"> Backstabber
+            </label>
+            <label>
+                <input type="checkbox" id="attribute11"> Fighting Finesse
+            </label>
+            <label>
+                <input type="checkbox" id="attribute12"> Khajiit
+            </label>
+            <br>
+            <label for="dwAxes">Dual Wield (axes):
+                <input type="number" id="dwAxes" placeholder="Dual Wield Axes">
+            </label>
+        </div>
+        <div>
+            <br>
+            <button id="calculateBtn">Calculate Critical Damage</button>
+            <h2 id="result">Critical Damage: </h2>
+        </div>
+    </div>
+    <script src="crit_calc.js"></script>
+</body>
+</html>
